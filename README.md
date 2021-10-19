@@ -41,3 +41,5 @@ GET | Lista de todos os telefones | `localhost:8000/api/phones`
 GET | Pega telefone por ID | `localhost:8000/api/phones/id`
 PUT | Atualizar telefone por ID | `localhost:8000/api/phones/id`
 POST | Deletar telefone por ID | `localhost:8000/api/phones/id`
+
+Fonte: [DEV](https://dev.to/ndiecodes/build-a-jwt-authenticated-api-with-lumen-2afm)
