@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Phone;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class PhoneSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,8 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            PhoneSeeder::class
-        ]);
+        Phone::factory()
+            ->count(10)
+            ->create();
     }
 }
