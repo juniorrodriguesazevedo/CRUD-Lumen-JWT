@@ -24,7 +24,7 @@ Projeto feito com o intuito de aprender usar a biblioteca JWT.
 
 ![Login](https://i.imgur.com/45jeAVC.png)
 
-OBS: Use o token gerado
+**OBS:** Use o token gerado
 
 3 - Cadastrar Telefone com a rota `localhost:8000/api/phones` e você deverá obter uma resposta bem-sucedida como esta:
 
@@ -42,4 +42,4 @@ GET | Pega telefone por ID | `localhost:8000/api/phones/id`
 PUT | Atualizar telefone por ID | `localhost:8000/api/phones/id`
 POST | Deletar telefone por ID | `localhost:8000/api/phones/id`
 
-Fonte: [DEV](https://dev.to/ndiecodes/build-a-jwt-authenticated-api-with-lumen-2afm)
+**Fonte:** [DEV](https://dev.to/ndiecodes/build-a-jwt-authenticated-api-with-lumen-2afm)
