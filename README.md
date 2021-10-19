@@ -1,6 +1,6 @@
 ## CRUD Lumen JWT
 
-Projeto feito com o intuito de aprender usar a biblioteca JWT.
+Projeto feito em Lumen/Framework para cadastrado de telefones com autenticação JWT.
 
 ### Bibliotecas usadas:
 * [JWT Auth Laravel](https://github.com/tymondesigns/jwt-auth)
