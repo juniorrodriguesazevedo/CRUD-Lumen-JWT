@@ -1,24 +1,25 @@
-# Lumen PHP Framework
+## CRUD Lumen JWT
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+Projeto feito com o intuito de aprender usar a biblioteca JWT.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+### Bibliotecas usadas:
+* [JWT Auth Laravel](https://github.com/tymondesigns/jwt-auth)
 
-## Official Documentation
+### Instalação: 
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+* Você precisará do PHP instalado em seu computador, [BAIXE AQUI](https://www.php.net/downloads). 
+* Na raiz do projeto use o comando `composer install`. 
+* No arquivo `.ENV` edite o campo `DB_CONNECTION` e coloque os dados do seu banco de dados.
+* Use o comando `php artisan jwt:secret` para criar um token no seu ENV.
+* Use o comando `php artisan migrate` para fazer as migrações.
+* Use o comando `php -S localhost:8000 -t public` para rodar em seu servidor.
+* Navegue para `http://localhost:8000`. O aplicativo será carregado automaticamente.
 
-## Contributing
+### Uso
+1 - Registre um usuário (use o POSTMAN) com a rota `localhost:8000/api/register` e você deverá obter uma resposta bem-sucedida como esta:
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Register](https://i.imgur.com/2k4Anas.png)
 
-## Security Vulnerabilities
+2 - Faça o login de um usuário usando a rota `localhost:8000/api/login` e você deverá obter uma resposta bem-sucedida como esta:
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Login](https://i.imgur.com/45jeAVC.png)
