@@ -26,13 +26,13 @@ Projeto feito em Lumen/Framework com o intuito de aprender usar a biblioteca JWT
 
 **OBS:** Use o token gerado
 
-3 - Cadastrar Telefone com a rota `localhost:8000/api/phones` e você deverá obter uma resposta bem-sucedida como esta:
+3 - Cadastrar telefone com a rota `localhost:8000/api/phones` e você deverá obter uma resposta bem-sucedida como esta:
 
 ![Cadastrar Telefone](https://i.imgur.com/fGfeO9F.png)
 
 ### Lista de todas as APIs:
 Method   | Descrição | Rota
---------- | ------ | ------
+:--------- | :------ | :------
 POST | Registrar usuário | `localhost:8000/api/register`
 POST | Login de usuário | `localhost:8000/api/login`
 GET | Retorna usuário logado | `localhost:8000/api/profile`
