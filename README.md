@@ -15,7 +15,7 @@ Projeto feito em Lumen/Framework com o intuito de aprender usar a biblioteca JWT
 * Use o comando `php -S localhost:8000 -t public` para rodar em seu servidor.
 * Navegue para `http://localhost:8000`. O aplicativo será carregado automaticamente.
 
-### Uso
+### Uso:
 1 - Registre um usuário (use o POSTMAN) com a rota `localhost:8000/api/register` e você deverá obter uma resposta bem-sucedida como esta:
 
 ![Register](https://i.imgur.com/2k4Anas.png)
